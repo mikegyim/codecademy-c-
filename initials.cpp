@@ -1,4 +1,4 @@
-//Write my name initials in block letter
+//Write my name initials in block letters
 #include<iostream>
 int main()
 {
