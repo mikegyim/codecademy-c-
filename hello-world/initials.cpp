@@ -1,5 +1,5 @@
-//Fun Fact: I like going to the gym
-//My name initials
+
+//My name initials using block letters
 #include<iostream>
 int main()
 {
