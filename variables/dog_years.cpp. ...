@@ -1,0 +1,35 @@
+#include <iostream>
+
+int main() {
+  //Declare the dog real age 
+  int dog_age;
+  double later_years;
+//Declare the dog's name
+std::string name;
+//function to enter the dog's name
+std::cout << "Enter the dog's name: ";
+std::cin >> name;
+//function to enter the age
+std::cout << " Enter the dog's age: ";
+std::cin >> dog_age;
+//Declare and intialize the double variables earl_years, later_years and human_years
+double early_years =21; //the first two years
+if(dog_age <2)
+{
+  early_years = (early_years/2)*dog_age;//early human years
+  later_years = 0; //later years(later human years) are the following years after the first 2 years
+}
+ if(dog_age >=2)
+{
+ early_years = early_years;
+ later_years =(dog_age-2)*4;
+}
+//declare and initialize a variable named double human_years
+double human_years = early_years + later_years;// 
+std::cout <<" This dog is " << name <<"." <<  name << " is " << human_years << " human years\n";
+return 0;
+  
+  
+  
+}
+  
