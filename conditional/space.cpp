@@ -28,24 +28,24 @@ int main() {
     std::cout << " Planet = Venus and relative gravity = 0.78\n ";
     std:: cout << " Planet Weight =  " << 0.78*weight << "\n";
 }
-if(planet_number==2)
+else if(planet_number==2)
 {
   std::cout << " Planet =  Mars and relative gravity = 0.39\n ";
   std::cout << " Planet weight = " << 0.39*weight << "\n";
 }
-if(planet_number==3) {
+else if(planet_number==3) {
   std::cout << " Planet = Jupiter and relative gravity = 2.65\n ";
   std::cout << " Planet weight = " << 2.65*weight << "\n";
 }
-  if(planet_number==4) {
+  else if(planet_number==4) {
   std::cout << " Planet = Saturn and relative gravity = 1.17\n ";
   std::cout << " Planet weight = " << 1.17*weight << "\n";
 }
-if(planet_number==5) {
+else if(planet_number==5) {
   std::cout << " Planet = Uranus and relative gravity = 1.05\n ";
   std::cout << " Planet weight = " << 1.05*weight << "\n";
 }
-  if(planet_number==6) {
+  else if(planet_number==6) {
   std::cout << " Planet = Neptune and relative gravity = 1.23\n ";
   std::cout << " Planet weight = " << 1.23*weight << "\n";
 }
